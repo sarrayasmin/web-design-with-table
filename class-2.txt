@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class-2 Tables</title>
+</head>
+<body>
+    <!-- Table-1 start -->
+    <table border="1" cellspacing="0" cellpadding="0" align="center" width="600" height="500">
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </table>
+    <!-- Table-1 end -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Table-2 Marging cell start -->
+    <table border="1" width="600" height="600" cellspacing="0" cellpadding="0" align="center">
+        <caption>Table-2 for marging cell</caption>
+        <!-- row-1 -->
+        <tr>
+            <td colspan="2"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+            
+        </tr>
+        <!-- row-2 -->
+        <tr>
+            <td></td>
+            <td></td>
+            <td rowspan="3"></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <!-- row-3 -->
+        <tr>
+            
+            <td rowspan="3"></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <!-- row-4 -->
+        <tr>
+            
+            
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <!-- row-5 -->
+        <tr>
+            <td></td>
+            <td></td>
+            <td colspan="3"></td>
+           >
+        </tr>
+    </table>
+    <!-- Table-2 Marging cell end -->
+    <br>
+    <br>
+    <br>
+    <br>
+    <!-- Table-3 Nested table start -->
+    <table bgcolor="red" width="600" height="600" cellspacing="0" cellpadding="0" align="center">
+        <caption><h1>Nested Table</h1></caption>
+        <tr>
+            <td >
+                <table bgcolor="blue" width="600" height="200" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td bgcolor="red"width="300" height="200"></td>
+                        <td >
+                            <table bgcolor="gray"width="300" height="200" cellspacing="0" cellpadding="0" >
+                                <tr>
+                                    <td bgcolor="blue" width="300" height="100"></td>
+                                </tr>
+                                <tr>
+                                    <td bgcolor="yellow" width="300" height="100"></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+        <tr>
+            <td bgcolor="green" width="600" height="200"></td>
+        </tr>
+        <tr>
+            <td bgcolor="yellow" width="600" height="200"></td>
+        </tr>
+    </table>
+    <!-- Table-3 Nested table end -->
+</body>
+</html>
